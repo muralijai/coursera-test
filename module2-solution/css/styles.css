@@ -1,0 +1,72 @@
+/********** Base styles **********/
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 175%;
+}
+
+#container {
+}
+
+.secTitle {
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	text-transform: capitalize;
+	border: 1px solid black;
+	padding: 5px;
+	margin-top: -1px;
+	margin-right: -1px;
+}
+
+#secTitle1 {
+	background-color: pink;
+}
+
+#secTitle2 {
+	background-color: red;
+}
+
+#secTitle3 {
+	background-color: orange;
+}
+
+.sec {
+	float: left;
+	border: 1px solid black;
+	margin: 10px;
+	background-color: grey;
+}
+
+.secTxt {
+	padding: 10px;
+	margin: 5px;
+	font-weight: bold;
+	clear: both;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	.sec {
+		width: 31%;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.sec {
+		width: 47%;
+	}
+	#sec3 {
+		width: auto;
+	}
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+}
